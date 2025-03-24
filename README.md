@@ -1,15 +1,15 @@
-Repozytorium pracy dyplomowej nt. oceny poprawności techniki wykonywania ćwiczeń fizycznych, pisanej w ramach studiów podyplomowych GSN 2024 na PW.
+Repository of a diploma thesis on the assessment of the correctness of the technique of performing physical exercises, written as part of the GSN 2024 postgraduate studies at PW.
 
-Autorzy pracy:
+Authors of the thesis:
 - Adam Śliwiński
 - Artur Waniewski
 
-Opiekun pracy:
+Supervisor:
 - Grzegorz Gwardys
 
-Link do datasetu:
+Link to the dataset:
 https://drive.google.com/file/d/1c2tw7-KdGG9dktPi1eAMjai4p9cOiF0k/view?usp=sharing
-Repozytorium, z którego został wzięty dataset:
+Repository from which the dataset was taken:
 https://github.com/KDMStromback/mm-fit
 
 
