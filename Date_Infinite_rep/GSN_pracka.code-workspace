@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "GSN_pracka",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"python.languageServer": "Pylance"
+	}
+}

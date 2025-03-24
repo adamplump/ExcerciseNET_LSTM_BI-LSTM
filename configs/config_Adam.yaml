@@ -1,0 +1,25 @@
+
+LOGDIR: "/mnt/c/Users/adams/OneDrive/Dokumenty/GitHub/GSN_praca/Date_Infinite_rep/training_plots"
+EXP_NAME: 
+CURRENT_DIR: "/mnt/c/Users/adams/OneDrive/Dokumenty/GitHub/mm-fit/"
+MODELS: "/mnt/c/Users/adams/OneDrive/Dokumenty/GitHub/GSN_praca/Date_Infinite_rep/Trained_models/"
+LOSS_PLOTS: "/mnt/c/Users/adams/OneDrive/Dokumenty/GitHub/GSN_praca/Date_Infinite_rep/bad_habits_loss/"
+NUM_WORKERS: 16
+DATASET:
+  SEQLEN: 60
+  TRAIN_W_IDs: ['00', '02', '03', '04', '06', '07', '08', '16', '17', '18']
+  VAL_W_IDs: ['14', '15', '19']
+  TEST_W_IDs: ['01', '05', '12', '13', '20']
+  CLASS_VAL: 'tricep_extensions'
+TRAIN:
+  BATCH_SIZE: [64]
+  NUM_EPOCHS: 150
+  PRETRAINED: ''
+  MOT_DISCR:
+    OPTIM: 'Adam'
+    LR: [0.0001]
+    EMBEDDING_DIMS: [512, 768, 1024]
+MODEL:
+  INPUT_DIM: 89
+  EMBEDDING_DIMS: 1024
+  CONDITION_DIM: 11
